@@ -1,0 +1,17 @@
+<pre>
+  Form Valid: {{loginForm.valid}}
+  Form Touched: {{loginForm.touched}}
+  Form Dirty: {{loginForm.dirty}}
+  Form Values: {{loginForm.value | json}}
+
+  username Valid: {{username.valid}}
+  username Touched: {{username.touched}}
+  username Dirty: {{username.dirty}}
+  username Value: {{username.value}}
+  
+  password Valid: {{password.valid}}
+  password Touched: {{password.touched}}
+  password Dirty: {{password.dirty}}
+  password Value: {{password.value}}
+
+</pre>
